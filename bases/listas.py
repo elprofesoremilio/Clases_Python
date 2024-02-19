@@ -28,3 +28,10 @@ while True:
     #     print("Por favor, ingrese un número válido o 'fin'.")
 
 print("Lista de notas:", notas)
+
+# Para acceder a una nota concreta se indica la posición entre corchetes
+# lista[índice]
+# OJO: Ten en cuenta que la primera posición siempre es la posición 0
+# La función len(lista) nos dice la longitud de la lista, es decir cuántos elementos tiene
+if len(notas) > 0:      # Comprueba que al menos se ha introducido una nota
+    print(notas[0])     # Escribe la primera nota
