@@ -40,6 +40,3 @@ elif dia_semana == 2:
     print("Sábado")
 else:
     print("Domingo")
-
-
-
